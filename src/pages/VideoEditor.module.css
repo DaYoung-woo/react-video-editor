@@ -25,7 +25,7 @@
 .upload__btn:hover,
 .upload__btn:focus,
 .upload__btn:active {
-  background: #383838 !important;
+  background: #f14343 !important;
   border: none !important;
 }
 .re__upload__btn {
@@ -45,6 +45,7 @@
 .re__upload__btn:hover,
 .re__upload__btn:focus,
 .re__upload__btn:active {
-  background: #383838 !important;
+  /* background: #383838 !important; */
+  background: #f14343 !important;
   border: none !important;
 }
