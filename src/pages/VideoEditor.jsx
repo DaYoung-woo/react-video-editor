@@ -1,3 +1,4 @@
+// [2기] 우다영
 import { useState, useRef, useEffect } from 'react';
 import { Button, Modal, Spinner, Toast, ToastContainer } from 'react-bootstrap';
 import { createFFmpeg } from '@ffmpeg/ffmpeg'
@@ -138,22 +139,22 @@ const VideoEditor = () => {
       </ToastContainer>
 
       <Modal
-          show={processing}
-          onHide={() => setProcessing(false)}
-          backdrop={false}
-          keyboard={false}
-          centered
-          size="sm"
+        show={processing}
+        onHide={() => setProcessing(false)}
+        backdrop={false}
+        keyboard={false}
+        centered
+        size="sm"
       >
-          <div style={{ textAlign: 'center' }}>
-              <Spinner animation="border" role="status">
-                  <span className="visually-hidden">Loading...</span>
-              </Spinner>
+        <div style={{ textAlign: 'center' }}>
+          <Spinner animation="border" role="status">
+              <span className="visually-hidden">Loading...</span>
+          </Spinner>
 
-              <p style={{ marginTop: 16, fontSize: 14, fontWeight: 600, color: '#c8c8c8' }}>
-                  내보내기가 진행중입니다.
-              </p>
-          </div>
+          <p style={{ marginTop: 16, fontSize: 14, fontWeight: 600, color: '#c8c8c8' }}>
+              내보내기가 진행중입니다.
+          </p>
+        </div>
       </Modal>
     </article>
   );

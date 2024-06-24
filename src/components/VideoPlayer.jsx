@@ -1,3 +1,4 @@
+// [2기] 우다영
 import { useEffect, useState } from "react";
 import { BigPlayButton, ControlBar, LoadingSpinner, Player } from "video-react";
 import 'video-react/dist/video-react.css'

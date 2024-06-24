@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+// [2기] 우다영
 import './App.css';
 import VideoEditor from './pages/VideoEditor';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

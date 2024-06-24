@@ -11,7 +11,7 @@
 .upload__btn {
   width: 100%;
   border-radius: 8px;
-  background: #ff6262;
+  background: #2cadf9;
   padding: 16px 8px;
   color: #fff;
   text-align: center;
@@ -25,13 +25,13 @@
 .upload__btn:hover,
 .upload__btn:focus,
 .upload__btn:active {
-  background: #f14343 !important;
+  background: #2cadf9 !important;
   border: none !important;
 }
 .re__upload__btn {
   width: 100%;
   border-radius: 8px;
-  background: #ff6262;
+  background: #2cadf9;
   padding: 8px;
   color: #fff;
   text-align: center;
@@ -46,6 +46,6 @@
 .re__upload__btn:focus,
 .re__upload__btn:active {
   /* background: #383838 !important; */
-  background: #f14343 !important;
+  background: #2cadf9 !important;
   border: none !important;
 }
